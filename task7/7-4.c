@@ -45,7 +45,7 @@ int main(void){
 
   int i;
   float sum_h=0, sum_w=0;
-  GAKUSEI std[] = {};
+  GAKUSEI std[NUMBER];
   printf("名前 身長 体重:\n");
   for(i = 0; i < NUMBER; i++){
     scanf("%s %f %f", std[i].name, &std[i].height, &std[i].weight); 
